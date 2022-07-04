@@ -42,6 +42,11 @@ body {
   color: var(--accent-txt-cl);
 }
 
+.works-link:hover,
+.works-link:focus {
+  color: var(--main-txt-cl);
+}
+
 .btn {
   font-family: inherit;
   border: transparent;
@@ -87,9 +92,10 @@ body {
 
 .header-contacts {
   color: var(--secondary-txt-cl);
+  font-weight: 500;
   font-size: 14px;
-  line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
 }
 
 /* STUDIO Hero section */
@@ -115,6 +121,10 @@ body {
 .hero-btn {
   background-color: var(--accent-txt-cl);
   color: var(--light-txt-cl);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
 }
 
 /* STUDIO Advantages section */
@@ -148,7 +158,6 @@ body {
 }
 
 .team-position {
-  font-size: 16px;
   line-height: calc(19 / 16);
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
@@ -158,6 +167,7 @@ body {
 
 .filter-btn {
   background-color: var(--light-bg-cl);
+  font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
@@ -177,7 +187,6 @@ body {
 }
 
 .works-type {
-  font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
